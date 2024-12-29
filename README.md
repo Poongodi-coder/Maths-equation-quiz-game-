@@ -34,7 +34,7 @@ Welcome to the Maths equation quiz game! This program will test your math skills
 - You also need the `tkinter` library, which is included in Python installations.
 
 ### Running the Program
-- The program requires Python and Visual Studio Code (VSCode) to be installed on your computer.
+- The program requires Python and Visual Studio Code to be installed on your computer.
 - Save the two program files in a folder and name the module file as `simple_equation_quiz.py` and the main file as `maths_quiz_game.py`.
 - In VSCode, you can usually run the program by clicking the “Run” button or pressing the `F5` function key on your keyboard.
 
@@ -45,7 +45,7 @@ The Maths equation quiz game program consists of the following main components:
 - **Imports**: Import necessary libraries and modules.
 - **launch_quiz function**: Main function to run the quiz.
 - **Tkinter setup**: Create and manage the Tkinter main window.
-### Detailed Code Explanation of main file
+### Detailed Code Explanation of main file - File name: maths_quiz_game.py
 ```Python
 '''
 This program will:
@@ -105,10 +105,10 @@ launch_quiz()
 # Destroy the root window
 root.destroy()
 ```
-### Module
+### Module - File name: simple_equation_quiz.py
 ```Python
 '''
-This module contains funcions such as,
+This module contains functions such as,
     1. Generating two random numbers.
     2. Forming the equation.
     3. Displaying the equation using Tkinter, GUI and get the user answer.
@@ -137,7 +137,7 @@ def display_equation(equation):
         # Get the answer from the user.
         user_answer = simpledialog.askfloat("Solve", equation)
   
-        # If the user cancelled an input, display the message and retrun None.
+        # If the user cancelled an input, display the message and return None.
         if user_answer is None:
             messagebox.showinfo("Cancelled", "You cancelled the input.")
             return None
@@ -164,7 +164,6 @@ def display_useranswer_correct_or_incorrect(score, iscorrect):
     return score
 ```
 ### Running the Program
-
 1. **Prerequisites**:
    - Ensure that Python and Visual Studio Code (VSCode) are installed on your computer.
 
@@ -176,6 +175,29 @@ def display_useranswer_correct_or_incorrect(score, iscorrect):
 3. **Execution**:
    - Open VSCode.
    - Run the program by clicking the “Run” button or pressing the `F5` key on your keyboard.
+
+### Output
+   - The program displays the equation as below:
+ 
+   - You enter 0.8 as the answer, the press OK button.
+ 
+   - The program informs you that your answer is correct.
+ 
+   - If you press the CANCEL button, the program will skip the question, display the message below, and continue to the next question. 
+
+   - If wrong, program informs you that your answer is wrong.
+ 
+   - If the answer is not a number, the message box below will pop up. Press OK and continue trying to provide the correct answer for the same question.
+ 
+   - This repeats for four more equations.
+   - Finally, the program displays your total score.
+ 
+### Error Handling
+The program includes error handling to manage invalid inputs and other exceptions, ensuring a smooth user experience.
+
+### GUI Elements
+   - simpledialog.askfloat: Prompts the user to enter a floating-point number.
+   - messagebox.showinfo: Displays messages to inform the user about the correctness of their answers and the final score.
 
 ### Conclusion
 This program provides a simple and interactive way to practice solving equations. By following the user manual, even those unfamiliar with Python can easily use the quiz. The technical documentation offers a deeper understanding of the code structure and functionality.
