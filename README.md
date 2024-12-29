@@ -178,19 +178,34 @@ def display_useranswer_correct_or_incorrect(score, iscorrect):
 
 ### Output
    - The program displays the equation as below:
- 
-   - You enter 0.8 as the answer, the press OK button.
- 
-   - The program informs you that your answer is correct.
- 
-   - If you press the CANCEL button, the program will skip the question, display the message below, and continue to the next question. 
+     
+     ![image info](https://github.com/Poongodi-coder/Maths-equation-quiz-game-/blob/main/01%20Display%20equation.png)
 
+   - You enter 0.8 as the answer, the press OK button.
+     
+     ![image info](https://github.com/Poongodi-coder/Maths-equation-quiz-game-/blob/main/02%20Enter%20answer.png)
+
+   - The program informs you that your answer is correct.
+     
+     ![image info](https://github.com/Poongodi-coder/Maths-equation-quiz-game-/blob/main/03%20Correct%20answer.png)
+     
+   - If you press the CANCEL button, the program will skip the question, display the message below, and continue to the next question.
+     
+     ![image info](https://github.com/Poongodi-coder/Maths-equation-quiz-game-/blob/main/04%20Cancelled%20message.png)
+     
    - If wrong, program informs you that your answer is wrong.
- 
+     
+     ![image info](https://github.com/Poongodi-coder/Maths-equation-quiz-game-/blob/main/05%20Wrong%20answer.png)
+     
    - If the answer is not a number, the message box below will pop up. Press OK and continue trying to provide the correct answer for the same question.
- 
+     
+     ![image info](https://github.com/Poongodi-coder/Maths-equation-quiz-game-/blob/main/06%20Not%20a%20number.png)
+     
    - This repeats for four more equations.
+     
    - Finally, the program displays your total score.
+     
+      ![image info](https://github.com/Poongodi-coder/Maths-equation-quiz-game-/blob/main/07%20Total%20score.png)
  
 ### Error Handling
 The program includes error handling to manage invalid inputs and other exceptions, ensuring a smooth user experience.
