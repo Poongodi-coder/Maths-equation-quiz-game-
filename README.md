@@ -46,7 +46,7 @@ The Maths equation quiz game program consists of the following main components:
 - **launch_quiz function**: Main function to run the quiz.
 - **Tkinter setup**: Create and manage the Tkinter main window.
 ### Detailed Code Explanation of main file
-```
+```Python
 '''
 This program will:
 Generate equation with random numbers, such as, 3 x 𝑥 = 12.
@@ -106,7 +106,7 @@ launch_quiz()
 root.destroy()
 ```
 ### Module
-```
+```Python
 '''
 This module contains funcions such as,
     1. Generating two random numbers.
