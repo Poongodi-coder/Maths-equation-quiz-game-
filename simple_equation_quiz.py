@@ -1,5 +1,5 @@
 '''
-This module contains funcions such as,
+This module contains functions such as,
     1. Generating two random numbers.
     2. Forming the equation.
     3. Displaying the equation using Tkinter, GUI and get the user answer.
@@ -28,7 +28,7 @@ def display_equation(equation):
         # Get the answer from the user.
         user_answer = simpledialog.askfloat("Solve", equation)
   
-        # If the user cancelled an input, display the message and retrun None.
+        # If the user cancelled an input, display the message and return None.
         if user_answer is None:
             messagebox.showinfo("Cancelled", "You cancelled the input.")
             return None
