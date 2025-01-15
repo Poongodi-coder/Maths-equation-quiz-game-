@@ -46,7 +46,7 @@ The Maths equation quiz game program consists of the following main components:
 - **launch_quiz function**: Main function to run the quiz.
 - **Tkinter setup**: Create and manage the Tkinter main window.
 ### Detailed Code Explanation of main file - File name: maths_quiz_game.py
-#### To reduce the length of the document, I have taken away the doc string of the code, to view the doc string, please see the actual Python code.
+#### *To reduce the length of the document, I have taken away the doc string of the code, to view the doc string, please see the actual Python code.
 ```Python
 """
 The quiz process program:
@@ -86,7 +86,7 @@ launch_quiz()
 root.destroy()
 ```
 ### Module - File name: simple_equation_quiz.py
-#### To reduce the length of the document, I have taken away the doc string of the code, to view the doc string, please see the actual Python code.
+#### *To reduce the length of the document, I have taken away the doc string of the code, to view the doc string, please see the actual Python code.
 ```Python
 '''
 This module contains functions such as,
